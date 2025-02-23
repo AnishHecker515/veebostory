@@ -1,0 +1,368 @@
+.get-in-touch-container {
+    position: relative;
+    background-color: #ffeacc;
+    padding: 60px 20px;
+    border-radius: 50px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    color: #f4a261;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5e2b8c;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    color: #333;
+    margin: 15px auto;
+    max-width: 600px;
+  }
+  
+  .custom-btn {
+    background-color: #8a2be2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: #6a1bbd;
+  }
+  
+  /* Star decorations */
+  .stars {
+    position: absolute;
+    font-size: 24px;
+    color: #f4c542;
+  }
+  
+  .left-stars {
+    top: 20px;
+    left: 50px;
+  }
+  
+  .right-stars {
+    bottom: 20px;
+    right: 50px;
+  }
+
+  .pricing-section {
+    background: linear-gradient(to bottom, #fff, #f5e1ff);
+    padding: 80px 0;
+    position: relative;
+  }
+  
+  .pricing-title {
+    color: #8a2be2;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .pricing-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4b0082;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pricing-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-plan-title {
+    font-size: 20px;
+    color: #4b0082;
+    font-weight: bold;
+  }
+  
+  .pricing-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-link {
+    color: #8a2be2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .explore-btn {
+    background: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background: #6a1bbd;
+  }
+  
+  /* Decorative Elements */
+  .pricing-section::before {
+    content: "⭐";
+    font-size: 24px;
+    color: #ffbf00;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+  }
+  
+  .pricing-section::after {
+    content: "⭐";
+    font-size: 24px;
+    color: #ffbf00;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+  }
+
+  /* Stories Section */
+.stories-section {
+  background: #f9f4fc;
+  padding: 60px 0;
+}
+
+.stories-subtitle {
+  color: #8a2be2;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stories-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4b0082;
+  margin-bottom: 40px;
+}
+
+.story-card {
+  background: #800080;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 3px solid #ffcc00;
+}
+
+.story-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.story-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.story-text {
+  font-size: 14px;
+  color: #f8f8f8;
+  margin-bottom: 10px;
+}
+
+.story-btn {
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.story-btn:hover {
+  background: #e6b800;
+}
+
+/* Explore More Button */
+.explore-btn {
+  background: #8a2be2;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background: #6a1bbd;
+}
+
+/* Features Section */
+.features-section {
+  background: #faf4ff;
+  padding: 60px 0;
+}
+
+.features-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6a1bbd;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  background: white;
+  border: 2px solid #d8a7ff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.feature-card.feature-active {
+  background: #6a1bbd;
+  color: white;
+}
+
+.feature-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.feature-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6a1bbd;
+}
+
+.feature-card.feature-active .feature-heading {
+  color: white;
+}
+
+.feature-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.feature-card.feature-active .feature-text {
+  color: white;
+}
+
+/* Try It Now Button */
+.try-btn {
+  background: #6a1bbd;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+}
+
+.try-btn:hover {
+  background: #531d99;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background: #ffc107;
+  padding: 60px 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+/* Dripping Effect */
+.hero-drip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('../assets/Group 1.png') no-repeat center;
+  background-size: cover;
+}
+
+/* Hero Title & Text */
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6a1bbd;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #fff;
+  max-width: 500px;
+}
+
+/* Join Now Button */
+.hero-btn {
+  background: #6a1bbd;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #531d99;
+}
+
+/* Hero Images */
+.hero-images {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.hero-img {
+  width: 160px;
+  height: auto;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.hero-img1 {
+  top: -20px;
+  left: 10px;
+  transform: rotate(-5deg);
+}
+
+.hero-img2 {
+  top: 100px;
+  right: 20px;
+  transform: rotate(5deg);
+}
+
+  
+  

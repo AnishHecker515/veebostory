@@ -1,0 +1,110 @@
+/* Footer Container */
+.footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Footer Layout */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Company Info */
+  .company-info {
+    width: 30%;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-veebo {
+    color: #ff3b3b;
+  }
+  
+  .logo-story {
+    font-style: italic;
+    color: white;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #bbb;
+  }
+  
+  /* Social Media Icons */
+  .footer-icons {
+    margin-top: 10px;
+  }
+  
+  .footer-icons svg {
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Services */
+  .services {
+    width: 20%;
+  }
+  
+  .services h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .services li:hover {
+    color: white;
+  }
+  
+  /* Contact Section */
+  .contact {
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-btn {
+    background: #ffc107;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background: #e0a800;
+  }
+  
